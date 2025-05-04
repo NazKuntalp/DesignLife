@@ -1,34 +1,83 @@
 import React, { useState } from "react";
-import myImage from "./Assets/buildings.jpg"
+import myImage from "./Assets/Test.jpeg"
 import "./InteractivePage.css";  // CSS dosyasını da dahil ediyoruz
-
-// Fotoğraf üzerindeki binaları temsil eden tıklanabilir alanlar
-const buildings = [
-  { id: 1, name: "Bina 1", description: "Bina 1 hakkında bilgi burada." , x: 30, y: 50 },
-  { id: 2, name: "Bina 2", description: "Bina 2 hakkında bilgi burada." , x: 60, y: 30 },
-  { id: 3, name: "Bina 3", description: "Bina 3 hakkında bilgi burada." , x: 45, y: 70 },
-  { id: 4, name: "Bina 4", description: "Bina 4 hakkında bilgi burada." , x: 80, y: 85 },
-];
-
-const buildingData = [
+  
+  const buildingData3 = [
     {
       id: 1,
-      name: 'Alışveriş Merkezi',
-      description: 'Bu bina büyük bir alışveriş merkezidir.',
-      //coordinates: { top: 320, left: 358, width: 224, height: 513 }
-      coordinates: { top: 34, left: 28, width: 16, height: 56 }
-    
-    },
-    {
-      id: 2,
-      name: 'Ofis Binası',
+      name: 'Test Bina 1',
       description: 'Bu bina yüksek katlı bir ofis binasıdır.',
       //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-      coordinates: { top: 5, left: 50, width: 20, height: 90 }
+      coordinates: { top: 50, left: 30, width: 53, height: 12 },
+      //color: "green",
+      zIndex: 10
     },
-  ];
+    {
+        id: 2,
+        name: 'Test Bina 2',
+        description: 'Test Bina 2',
+        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
+        coordinates: { top: 60, left: 1, width: 48, height: 9 },
+        //color: "blue",
+        zIndex: 20
+      },
+      {
+        id: 3,
+        name: 'Test Bina 3',
+        description: 'Bu bina yüksek katlı bir ofis binasıdır.',
+        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
+        coordinates: { top: 62, left: 48, width: 51, height: 15 },
+        //olor: "purple",
+        zIndex: 30
+      },
+    
+      {
+        id: 4,
+        name: 'Test Bina 4',
+        description: 'Test Bina 4',
+        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
+        coordinates: { top: 69, left: 1, width: 56, height: 12 },
+        //color: "yellow",
+        zIndex: 40
+      },
+    
+      {
+        id: 5,
+        name: 'Test Bina 5',
+        description: 'Bu bina yüksek katlı bir ofis binasıdır.',
+        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
+        coordinates: { top: 76, left: 52, width: 48, height: 5 },
+        //color: "orange",
+        zIndex: 50
+      },{
+        id: 6,
+        name: 'Test Bina 6',
+        description: 'Bu bina büyük bir alışveriş merkezidir.',
+        //coordinates: { top: 320, left: 358, width: 224, height: 513 }
+        coordinates: { top: 80, left: 0, width: 42, height: 19 },
+        //color: "red",
+        zIndex: 60
+      
+      },
+      {
+        id: 7,
+        name: 'Test Bina 7',
+        description: 'Bu bina yüksek katlı bir ofis binasıdır.',
+        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
+        coordinates: { top: 81, left: 43, width: 57, height: 19 },
+        //color: "cyan",
+        zIndex: 70
+      },
+      {
+        id: 8,
+        name: 'Test Bina 8',
+        description: 'Bu bina yüksek katlı bir ofis binasıdır.',
+        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
+        coordinates: { top: 91, left: 66, width: 34, height: 8 },
+        //color: "black",
+        zIndex: 80
+      },];
 
-  
 export default function InteractivePage() {
   const [activeBuilding, setActiveBuilding] = useState(null);
 
@@ -42,7 +91,7 @@ export default function InteractivePage() {
       <div className="image-container">
         <img src={myImage} alt="Binalar" className="building-image" />
 
-        {buildingData.map((building) => (
+        {buildingData3.map((building) => (
           <div
             key={building.id}
             className="clickable-area"
@@ -52,8 +101,11 @@ export default function InteractivePage() {
                 width: `${building.coordinates.width}%`,
                 height: `${building.coordinates.height}%`,
               position: "absolute",
+              backgroundColor: building.color ? `${building.color}` : null,
+              zIndex: building.zIndex ? `${building.zIndex}` : null,
               cursor: "pointer",
               borderRadius: "20%",
+              opacity: "0.5"
             }}
             onClick={() => handleBuildingClick(building)}
           ></div>
@@ -61,7 +113,7 @@ export default function InteractivePage() {
 
         {activeBuilding && (
           <div className="info-bubble">
-            {buildingData
+            {buildingData3
               .filter((building) => building.id === activeBuilding)
               .map((building) => (
                 <div key={building.id}>
