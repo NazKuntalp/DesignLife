@@ -15,13 +15,16 @@ const buildingData = [
       id: 1,
       name: 'Alışveriş Merkezi',
       description: 'Bu bina büyük bir alışveriş merkezidir.',
-      coordinates: { top: 320, left: 358, width: 224, height: 513 }
+      //coordinates: { top: 320, left: 358, width: 224, height: 513 }
+      coordinates: { top: 34, left: 28, width: 16, height: 56 }
+    
     },
     {
       id: 2,
       name: 'Ofis Binası',
       description: 'Bu bina yüksek katlı bir ofis binasıdır.',
-      coordinates: { top: 81, left: 648, width: 250, height: 774 }
+      //coordinates: { top: 81, left: 648, width: 250, height: 774 }
+      coordinates: { top: 5, left: 50, width: 20, height: 90 }
     },
   ];
 
@@ -44,10 +47,10 @@ export default function InteractivePage() {
             key={building.id}
             className="clickable-area"
             style={{
-                top: `${building.coordinates.top}px`,
-                left: `${building.coordinates.left}px`,
-                width: `${building.coordinates.width}px`,
-                height: `${building.coordinates.height}px`,
+                top: `${building.coordinates.top}%`,
+                left: `${building.coordinates.left}%`,
+                width: `${building.coordinates.width}%`,
+                height: `${building.coordinates.height}%`,
               position: "absolute",
               cursor: "pointer",
               borderRadius: "20%",

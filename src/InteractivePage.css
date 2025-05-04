@@ -15,6 +15,7 @@
   }
   
   .clickable-area {
+    background-color: red;  /* Tıklanabilir alanın rengi */
     border-radius: 50%;
     cursor: pointer;
   }
