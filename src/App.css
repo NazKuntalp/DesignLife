@@ -36,32 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.container {
-  max-width: 600px;
-  margin: 50px auto;
-  font-family: "Arial", sans-serif;
-  padding: 20px;
-  text-align: center;
-}
-
-.rules {
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  background-color: #00915a;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.instructions {
-  margin-top: 20px;
-  background-color: #f2f2f2;
-  padding: 15px;
-  border-radius: 8px;
-}
