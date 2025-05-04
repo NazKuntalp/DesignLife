@@ -10,6 +10,22 @@ const buildings = [
   { id: 4, name: "Bina 4", description: "Bina 4 hakkında bilgi burada." , x: 80, y: 85 },
 ];
 
+const buildingData = [
+    {
+      id: 1,
+      name: 'Alışveriş Merkezi',
+      description: 'Bu bina büyük bir alışveriş merkezidir.',
+      coordinates: { top: 320, left: 358, width: 224, height: 513 }
+    },
+    {
+      id: 2,
+      name: 'Ofis Binası',
+      description: 'Bu bina yüksek katlı bir ofis binasıdır.',
+      coordinates: { top: 81, left: 648, width: 250, height: 774 }
+    },
+  ];
+
+  
 export default function InteractivePage() {
   const [activeBuilding, setActiveBuilding] = useState(null);
 
@@ -23,19 +39,18 @@ export default function InteractivePage() {
       <div className="image-container">
         <img src={myImage} alt="Binalar" className="building-image" />
 
-        {buildings.map((building) => (
+        {buildingData.map((building) => (
           <div
             key={building.id}
             className="clickable-area"
             style={{
-              left: `${building.x}%`,
-              top: `${building.y}%`,
+                top: `${building.coordinates.top}px`,
+                left: `${building.coordinates.left}px`,
+                width: `${building.coordinates.width}px`,
+                height: `${building.coordinates.height}px`,
               position: "absolute",
               cursor: "pointer",
-              width: "20px",  // Alan boyutu
-              height: "20px",
-              backgroundColor: "red",
-              borderRadius: "50%",
+              borderRadius: "20%",
             }}
             onClick={() => handleBuildingClick(building)}
           ></div>
@@ -43,7 +58,7 @@ export default function InteractivePage() {
 
         {activeBuilding && (
           <div className="info-bubble">
-            {buildings
+            {buildingData
               .filter((building) => building.id === activeBuilding)
               .map((building) => (
                 <div key={building.id}>
