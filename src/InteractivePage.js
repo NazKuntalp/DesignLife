@@ -87,7 +87,6 @@ export default function InteractivePage() {
 
   return (
     <div className="container">
-      <h1>Fotoğraf Üzerindeki Binalar</h1>
       <div className="image-container">
         <img src={myImage} alt="Binalar" className="building-image" />
 
