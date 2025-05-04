@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import myImage from "./Assets/buildings.jpg"
 import "./InteractivePage.css";  // CSS dosyasını da dahil ediyoruz
 
 // Fotoğraf üzerindeki binaları temsil eden tıklanabilir alanlar
@@ -20,7 +21,7 @@ export default function InteractivePage() {
     <div className="container">
       <h1>Fotoğraf Üzerindeki Binalar</h1>
       <div className="image-container">
-        <img src="/buildings.jpg" alt="Binalar" className="building-image" />
+        <img src={myImage} alt="Binalar" className="building-image" />
 
         {buildings.map((building) => (
           <div
