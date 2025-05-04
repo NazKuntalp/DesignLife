@@ -7,8 +7,7 @@ const buildingData3 = [
         id: 1,
         name: 'Test Bina 1',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
-        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-        coordinates: { top: 32, left: 30, width: 53, height: 15 },
+        coordinates: { top: 34, left: 30, width: 53, height: 17 },
         color: "green",
         zIndex: 10
     },
@@ -16,8 +15,7 @@ const buildingData3 = [
         id: 2,
         name: 'Test Bina 2',
         description: 'Test Bina 2',
-        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-        coordinates: { top: 43, left: 1, width: 51, height: 14 },
+        coordinates: { top: 46, left: 1, width: 51, height: 16 },
         color: "blue",
         zIndex: 20
     },
@@ -25,8 +23,7 @@ const buildingData3 = [
         id: 3,
         name: 'Test Bina 3',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
-        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-        coordinates: { top: 47, left: 48, width: 51, height: 15 },
+        coordinates: { top: 50, left: 48, width: 51, height: 18 },
         color: "purple",
         zIndex: 30
     },
@@ -35,8 +32,7 @@ const buildingData3 = [
         id: 4,
         name: 'Test Bina 4',
         description: 'Test Bina 4',
-        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-        coordinates: { top: 56, left: 1, width: 58, height: 14 },
+        coordinates: { top: 61, left: 1, width: 62, height: 14 },
         color: "yellow",
         zIndex: 40
     },
@@ -45,16 +41,14 @@ const buildingData3 = [
         id: 5,
         name: 'Test Bina 5',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
-        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-        coordinates: { top: 62, left: 52, width: 48, height: 19 },
+        coordinates: { top: 67, left: 52, width: 48, height: 19 },
         color: "orange",
         zIndex: 50
     }, {
         id: 6,
         name: 'Test Bina 6',
         description: 'Bu bina büyük bir alışveriş merkezidir.',
-        //coordinates: { top: 320, left: 358, width: 224, height: 513 }
-        coordinates: { top: 70, left: 0, width: 42, height: 23 },
+        coordinates: { top: 74, left: 0, width: 42, height: 26 },
         color: "red",
         zIndex: 60
 
@@ -63,8 +57,7 @@ const buildingData3 = [
         id: 7,
         name: 'Test Bina 7',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
-        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-        coordinates: { top: 73, left: 43, width: 57, height: 20 },
+        coordinates: { top: 77, left: 41, width: 46, height: 23 },
         color: "cyan",
         zIndex: 70
     },
@@ -72,8 +65,7 @@ const buildingData3 = [
         id: 8,
         name: 'Test Bina 8',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
-        //coordinates: { top: 81, left: 648, width: 250, height: 774 }
-        coordinates: { top: 82, left: 66, width: 34, height: 11 },
+        coordinates: { top: 88, left: 66, width: 34, height: 12 },
         color: "black",
         zIndex: 80
     },];
