@@ -91,7 +91,7 @@ export default function InteractivePage() {
                             width: `${building.coordinates.width}%`,
                             height: `${building.coordinates.height}%`,
                             position: "absolute",
-                            //backgroundColor: building.color ? `${building.color}` : null,
+                            backgroundColor: building.color ? `${building.color}` : null,
                             zIndex: building.zIndex ? `${building.zIndex}` : null,
                             cursor: "pointer",
                             borderRadius: "20%",
