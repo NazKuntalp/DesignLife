@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DesignLife/static/css/main.5f4d31b5.css",
-    "main.js": "/DesignLife/static/js/main.eb758a15.js",
+    "main.js": "/DesignLife/static/js/main.3e4e6360.js",
     "static/js/453.4a24da4e.chunk.js": "/DesignLife/static/js/453.4a24da4e.chunk.js",
     "static/media/Test2.jpeg": "/DesignLife/static/media/Test2.4e6341788226d1de442e.jpeg",
     "index.html": "/DesignLife/index.html",
     "main.5f4d31b5.css.map": "/DesignLife/static/css/main.5f4d31b5.css.map",
-    "main.eb758a15.js.map": "/DesignLife/static/js/main.eb758a15.js.map",
+    "main.3e4e6360.js.map": "/DesignLife/static/js/main.3e4e6360.js.map",
     "453.4a24da4e.chunk.js.map": "/DesignLife/static/js/453.4a24da4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f4d31b5.css",
-    "static/js/main.eb758a15.js"
+    "static/js/main.3e4e6360.js"
   ]
 }
