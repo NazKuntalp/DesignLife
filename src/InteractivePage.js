@@ -8,7 +8,7 @@ const buildingData3 = [
         name: 'Test Bina 1',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
         coordinates: { top: 34, left: 30, width: 53, height: 17 },
-        color: "green",
+        //color: "green",
         zIndex: 10
     },
     {
@@ -16,7 +16,7 @@ const buildingData3 = [
         name: 'Test Bina 2',
         description: 'Test Bina 2',
         coordinates: { top: 46, left: 1, width: 51, height: 16 },
-        color: "blue",
+        //color: "blue",
         zIndex: 20
     },
     {
@@ -24,7 +24,7 @@ const buildingData3 = [
         name: 'Test Bina 3',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
         coordinates: { top: 50, left: 48, width: 51, height: 18 },
-        color: "purple",
+        //color: "purple",
         zIndex: 30
     },
 
@@ -33,7 +33,7 @@ const buildingData3 = [
         name: 'Test Bina 4',
         description: 'Test Bina 4',
         coordinates: { top: 61, left: 1, width: 62, height: 14 },
-        color: "yellow",
+        //color: "yellow",
         zIndex: 40
     },
 
@@ -42,14 +42,14 @@ const buildingData3 = [
         name: 'Test Bina 5',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
         coordinates: { top: 67, left: 52, width: 48, height: 19 },
-        color: "orange",
+        //color: "orange",
         zIndex: 50
     }, {
         id: 6,
         name: 'Test Bina 6',
         description: 'Bu bina büyük bir alışveriş merkezidir.',
         coordinates: { top: 74, left: 0, width: 42, height: 26 },
-        color: "red",
+        //color: "red",
         zIndex: 60
 
     },
@@ -58,7 +58,7 @@ const buildingData3 = [
         name: 'Test Bina 7',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
         coordinates: { top: 77, left: 41, width: 46, height: 23 },
-        color: "cyan",
+        //color: "cyan",
         zIndex: 70
     },
     {
@@ -66,7 +66,7 @@ const buildingData3 = [
         name: 'Test Bina 8',
         description: 'Bu bina yüksek katlı bir ofis binasıdır.',
         coordinates: { top: 88, left: 66, width: 34, height: 12 },
-        color: "black",
+        //color: "black",
         zIndex: 80
     },];
 
