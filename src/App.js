@@ -3,7 +3,7 @@ import InteractivePage from "./InteractivePage";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <InteractivePage />
     </div>
   );
