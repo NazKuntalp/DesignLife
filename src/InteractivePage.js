@@ -425,7 +425,7 @@ export default function InteractivePage() {
           variant="contained"
           color="error" // Kırmızı tonlu
           startIcon={<YouTubeIcon />}
-          href="https://youtu.be/y7aaRPqxy6k?si=Py-kOApzUkNRfFpg"
+          href="https://youtu.be/slU_yPHp0gQ?si=YBT4je-dRH8YPqvF"
           //target="_blank"
           rel="noopener"
         >
