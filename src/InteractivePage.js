@@ -435,7 +435,7 @@ export default function InteractivePage() {
         {/* <button onClick={() => window.location.href = "https://youtube.com"} style={{ backgroundColor: "#3E7633", color: "#F6AF24" }}>Rulebook</button> */}
       </div>
 
-      {activeButton && <div className="content-box" key={textFieldData.id}>
+      {activeButton && <div className="content-box" style={{margin: "20px"}} key={textFieldData.id}>
         <h2 style={{ color: "#3E7633" }}>{activeData.name}</h2>
         <div
           style={{ color: "#3E7633" }}
