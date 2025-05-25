@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DesignLife/static/css/main.24cf9e0f.css",
-    "main.js": "/DesignLife/static/js/main.11d82577.js",
+    "main.css": "/DesignLife/static/css/main.7e163df3.css",
+    "main.js": "/DesignLife/static/js/main.51c78232.js",
     "static/js/453.4a24da4e.chunk.js": "/DesignLife/static/js/453.4a24da4e.chunk.js",
     "static/media/LastBuildings.png": "/DesignLife/static/media/LastBuildings.2c9f4f7e96f545be0a87.png",
     "static/media/Logo2.png": "/DesignLife/static/media/Logo2.262e59b194ab105940a1.png",
     "index.html": "/DesignLife/index.html",
-    "main.24cf9e0f.css.map": "/DesignLife/static/css/main.24cf9e0f.css.map",
-    "main.11d82577.js.map": "/DesignLife/static/js/main.11d82577.js.map",
+    "main.7e163df3.css.map": "/DesignLife/static/css/main.7e163df3.css.map",
+    "main.51c78232.js.map": "/DesignLife/static/js/main.51c78232.js.map",
     "453.4a24da4e.chunk.js.map": "/DesignLife/static/js/453.4a24da4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24cf9e0f.css",
-    "static/js/main.11d82577.js"
+    "static/css/main.7e163df3.css",
+    "static/js/main.51c78232.js"
   ]
 }
